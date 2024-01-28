@@ -1,18 +1,6 @@
-/**
- * 
- *<div id="parent">
- *      <div id="child">
- *          <h1>I am h1 tage</h1>
- *          <h1>I am h1 tage</h1>
- *      </div>
- *      <div id="child2">
- *          <h1>I am h1 tage</h1>
- *          <h1>I am h1 tage</h1>
- *      </div>
- * </div>
- * 
- * ReactElement(Object) => HTML(Browser Understand)
- */
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 
  const parent = React.createElement(
     "div", 
