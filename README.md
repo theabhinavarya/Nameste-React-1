@@ -14,3 +14,4 @@
 - code splitting
 - DIfferential Bundling - support older browsers
 - Diagnostic
+- error Handling
