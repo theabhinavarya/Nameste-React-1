@@ -12,4 +12,5 @@
 - Compress
 - Consistent Hashing
 - code splitting
-- DIfferential Bun
+- DIfferential Bundling - support older browsers
+-
