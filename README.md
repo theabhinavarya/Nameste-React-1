@@ -13,4 +13,4 @@
 - Consistent Hashing
 - code splitting
 - DIfferential Bundling - support older browsers
--
+- Diagnostic
