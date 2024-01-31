@@ -2,8 +2,10 @@
   "name": "nameste-react",
   "version": "1.0.0",
   "description": "This is nameste react",
-    "scripts": {
-    "test": "jest"
+  "scripts": {
+   "start": "parcel index.html",
+   "build": "parcle build index.html",
+   "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,10 @@
   ],
   "author": "Abhinav Arya",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theabhinavarya/Nameste-React-1/issues"
+  },
+  "homepage": "https://github.com/theabhinavarya/Nameste-React-1#readme",
   "devDependencies": {
     "parcel": "^2.11.0",
     "process": "^0.11.10"
