@@ -2,8 +2,7 @@
   "name": "nameste-react",
   "version": "1.0.0",
   "description": "This is nameste react",
-  "main": "App.js",
-  "scripts": {
+    "scripts": {
     "test": "jest"
   },
   "repository": {
@@ -22,5 +21,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browsersList": [
+    "Last 2 version"
+  ]
 }
