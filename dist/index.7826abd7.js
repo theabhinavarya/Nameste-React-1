@@ -2952,20 +2952,15 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-//React Element
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-    id: "heading"
-}, "Nameste React");
 // JSX
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "heading",
     children: "Nameste JSX "
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 9,
+    lineNumber: 5,
     columnNumber: 20
 }, undefined);
-console.log(heading);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 console.log(jsxHeading);
 root.render(jsxHeading);
