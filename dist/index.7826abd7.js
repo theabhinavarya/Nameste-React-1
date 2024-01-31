@@ -2951,26 +2951,13 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-    id: "parent"
-}, [
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "i am h1 tage"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "i am h1 tage")
-    ]),
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child2"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "i am h1 tage"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "i am h1 tage")
-    ])
-]);
-//JSX
-console.log(parent); // object
-const root = (0, _clientDefault.default).createRoot(document.getElementById("header"));
-root.render(parent);
+//React Element
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "heading"
+}, "Nameste React");
+console.log(heading);
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+root.render(heading);
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
