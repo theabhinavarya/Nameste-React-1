@@ -2953,16 +2953,31 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 // JSX
-const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        id: "heading",
-        tabIndex: "5",
-        children: "Nameste JSX "
-    }, void 0, false, {
-        fileName: "App.js",
-        lineNumber: 5,
-        columnNumber: 22
-    }, undefined);
-_c = Title;
+const elem = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+    children: "React Element"
+}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 6,
+    columnNumber: 14
+}, undefined);
+const title = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+    id: "heading",
+    tabIndex: "5",
+    children: [
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+            children: "React Element"
+        }, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 10,
+            columnNumber: 9
+        }, undefined),
+        "Nameste JSX"
+    ]
+}, void 0, true, {
+    fileName: "App.js",
+    lineNumber: 9,
+    columnNumber: 5
+}, undefined);
 const fn = ()=>true;
 const fn2 = ()=>{
     return true;
@@ -2971,30 +2986,29 @@ const fn2 = ()=>{
 const number = 10000;
 const HeadingCompenent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            number,
+            title,
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "Nameste React"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 19,
+                lineNumber: 26,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 17,
+        lineNumber: 24,
         columnNumber: 5
     }, undefined);
-_c1 = HeadingCompenent;
+_c = HeadingCompenent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingCompenent, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 25,
+    lineNumber: 32,
     columnNumber: 13
 }, undefined));
-var _c, _c1;
-$RefreshReg$(_c, "Title");
-$RefreshReg$(_c1, "HeadingCompenent");
+var _c;
+$RefreshReg$(_c, "HeadingCompenent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {

@@ -2,7 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // JSX
-const Title = () => (<h1 id="heading" tabIndex="5">Nameste JSX </h1>);
+
+const elem = <span>React Element</span>
+
+const title = (
+    <h1 id="heading" tabIndex="5">
+        <span>React Element</span>
+        Nameste JSX 
+    </h1>);
 
 const fn = () => true;
 
@@ -15,7 +22,7 @@ const fn2 = () => {
 const number = 10000
 const HeadingCompenent = () => (
     <div>
-        {number}
+        {title}
         <h1>Nameste React</h1>
     </div>
 );
