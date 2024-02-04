@@ -11,11 +11,6 @@ const title = (
         Nameste JSX 
     </h1>);
 
-const fn = () => true;
-
-const fn2 = () => {
-    return true;
-}
 
 // React Compenent 
 

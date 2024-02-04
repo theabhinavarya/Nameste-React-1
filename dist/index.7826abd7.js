@@ -2978,10 +2978,6 @@ const title = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     lineNumber: 9,
     columnNumber: 5
 }, undefined);
-const fn = ()=>true;
-const fn2 = ()=>{
-    return true;
-};
 // React Compenent 
 const number = 10000;
 const HeadingCompenent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2991,20 +2987,20 @@ const HeadingCompenent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Nameste React"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 26,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 24,
+        lineNumber: 19,
         columnNumber: 5
     }, undefined);
 _c = HeadingCompenent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingCompenent, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 32,
+    lineNumber: 27,
     columnNumber: 13
 }, undefined));
 var _c;
