@@ -36,10 +36,19 @@ const Header = () => {
     )
 };
 
-const RestaurentCard = () => {
+const styleCard = {};
+
+const RestaurantCard = () => {
     return (
-        <div className="resturent-card">
-            <h3>Meghana Food</h3>
+        <div className="res-card" style={{backgroundColor: "#f0f0f0"}}>
+            <img
+            className="res-logo"
+            alt="res-logo"
+            src="https://i.ibb.co/jf9Qf6P/Screenshot-2024-02-04-185335.png"/>
+            <h3>StarBucks</h3>
+            <h4>Baverages,Cafe,Cakes,...</h4>
+            <h4><img className="star" src="https://i.ibb.co/7GHq5RZ/star-7-512.png"/>4.2</h4>
+            <h4>30 minutes</h4>
         </div>
     )
 };
@@ -48,8 +57,18 @@ const Body = () => {
     return (
         <div className="body">
                 <div className="search">Search</div>
-                <div className="restaurent-container">
-                    <RestaurentCard />
+                <div className="res-container">
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
+                    <RestaurantCard />
                 </div>
         </div>
     )
@@ -67,4 +86,4 @@ const AppLayout = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<AppLayout />);
+root.render(<AppLayout/>);
