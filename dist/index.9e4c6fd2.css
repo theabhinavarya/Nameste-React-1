@@ -1,10 +1,23 @@
-body {
-  color: #0088d1;
-  background-color: #282828;
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
 }
 
-#heading {
-  color: #0095ff;
+.logo {
+  width: 130px;
+}
+
+.nav-item ul {
+  padding-right: 30px;
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item ul li {
+  margin: 10px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

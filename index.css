@@ -1,7 +1,18 @@
-body{
-    background-color: rgb(40, 40, 40);
-    color: rgb(0, 136, 209);
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
-#heading {
-    color: rgb(0, 149, 255);
+.logo{
+    width: 130px;
+}
+.nav-item ul{
+    display: flex;
+    font-size: 24px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+.nav-item ul li {
+    padding: 10px;
+    margin: 10px;
 }
